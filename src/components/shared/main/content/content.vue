@@ -28,6 +28,7 @@ export default {
 @media screen and (max-width: 1024px) {
     .main-content {
         flex-direction: column-reverse;
+        justify-content: flex-end;
     }
 }
 </style>

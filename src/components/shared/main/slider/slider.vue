@@ -106,15 +106,9 @@ export default {
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .main-slider {
-        max-width: 705px;
-    }
-}
-
 @media screen and (max-width: 1220px) {
     .main-slider {
-        max-width: 605px;
+        max-width: 705px;
     }
 }
 
@@ -129,11 +123,6 @@ export default {
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-        }
-
-        .main-slider__slide,
-        .main-slider__slide-image {
-            border-radius: 0px 0px 20px 20px;
         }
     }
 }

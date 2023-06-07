@@ -111,7 +111,7 @@ export default {
 
 @media screen and (max-width: 1440px) {
     .main-introduction {
-        padding-inline: 60px;
+        padding-inline: 20px;
     }
 }
 
@@ -120,7 +120,7 @@ export default {
         padding: 32px 20px;
 
         .main-introduction__info {
-            margin-bottom: 166px;
+            margin-bottom: 32px;
         }
 
         .main-introduction__info-title {
@@ -142,7 +142,7 @@ export default {
         .main-introduction__contacts {
             flex-direction: row;
             align-items: flex-end;
-            grid-column-gap: 35px;
+            justify-content: space-between;
         }
 
         .main-introduction__contacts-email {
