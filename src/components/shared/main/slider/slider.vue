@@ -106,12 +106,6 @@ export default {
     }
 }
 
-@media screen and (max-width: 1220px) {
-    .main-slider {
-        max-width: 705px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .main-slider {
         max-width: 100%;
